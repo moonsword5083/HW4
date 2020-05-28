@@ -13,6 +13,17 @@
 		49370E85247FCF76006B1963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49370E84247FCF76006B1963 /* Assets.xcassets */; };
 		49370E88247FCF76006B1963 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49370E87247FCF76006B1963 /* Preview Assets.xcassets */; };
 		49370E8B247FCF76006B1963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49370E89247FCF76006B1963 /* LaunchScreen.storyboard */; };
+		49370E9D247FCFB5006B1963 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49370E92247FCFB5006B1963 /* SearchBar.swift */; };
+		49370E9E247FCFB5006B1963 /* CharacterEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49370E93247FCFB5006B1963 /* CharacterEditor.swift */; };
+		49370E9F247FCFB5006B1963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49370E94247FCFB5006B1963 /* AppDelegate.swift */; };
+		49370EA0247FCFB5006B1963 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49370E95247FCFB5006B1963 /* ContentView.swift */; };
+		49370EA1247FCFB5006B1963 /* CharactersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49370E96247FCFB5006B1963 /* CharactersData.swift */; };
+		49370EA2247FCFB5006B1963 /* CharacterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49370E97247FCFB5006B1963 /* CharacterList.swift */; };
+		49370EA3247FCFB5006B1963 /* CharacterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49370E98247FCFB5006B1963 /* CharacterRow.swift */; };
+		49370EA4247FCFB5006B1963 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49370E99247FCFB5006B1963 /* AppView.swift */; };
+		49370EA5247FCFB5006B1963 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49370E9A247FCFB5006B1963 /* Character.swift */; };
+		49370EA6247FCFB5006B1963 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49370E9B247FCFB5006B1963 /* ChartView.swift */; };
+		49370EA7247FCFB5006B1963 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49370E9C247FCFB5006B1963 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		49370E87247FCF76006B1963 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49370E8A247FCF76006B1963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49370E8C247FCF76006B1963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49370E92247FCFB5006B1963 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		49370E93247FCFB5006B1963 /* CharacterEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterEditor.swift; sourceTree = "<group>"; };
+		49370E94247FCFB5006B1963 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49370E95247FCFB5006B1963 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49370E96247FCFB5006B1963 /* CharactersData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersData.swift; sourceTree = "<group>"; };
+		49370E97247FCFB5006B1963 /* CharacterList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterList.swift; sourceTree = "<group>"; };
+		49370E98247FCFB5006B1963 /* CharacterRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterRow.swift; sourceTree = "<group>"; };
+		49370E99247FCFB5006B1963 /* AppView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		49370E9A247FCFB5006B1963 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		49370E9B247FCFB5006B1963 /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		49370E9C247FCFB5006B1963 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +80,18 @@
 			children = (
 				49370E7E247FCF74006B1963 /* AppDelegate.swift */,
 				49370E80247FCF74006B1963 /* SceneDelegate.swift */,
+				49370E97247FCFB5006B1963 /* CharacterList.swift */,
+				49370E98247FCFB5006B1963 /* CharacterRow.swift */,
+				49370E96247FCFB5006B1963 /* CharactersData.swift */,
+				49370E9B247FCFB5006B1963 /* ChartView.swift */,
 				49370E82247FCF74006B1963 /* ContentView.swift */,
+				49370E94247FCFB5006B1963 /* AppDelegate.swift */,
+				49370E99247FCFB5006B1963 /* AppView.swift */,
+				49370E9A247FCFB5006B1963 /* Character.swift */,
+				49370E93247FCFB5006B1963 /* CharacterEditor.swift */,
+				49370E95247FCFB5006B1963 /* ContentView.swift */,
+				49370E9C247FCFB5006B1963 /* SceneDelegate.swift */,
+				49370E92247FCFB5006B1963 /* SearchBar.swift */,
 				49370E84247FCF76006B1963 /* Assets.xcassets */,
 				49370E89247FCF76006B1963 /* LaunchScreen.storyboard */,
 				49370E8C247FCF76006B1963 /* Info.plist */,
@@ -146,7 +179,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49370EA3247FCFB5006B1963 /* CharacterRow.swift in Sources */,
+				49370EA7247FCFB5006B1963 /* SceneDelegate.swift in Sources */,
+				49370EA6247FCFB5006B1963 /* ChartView.swift in Sources */,
+				49370E9F247FCFB5006B1963 /* AppDelegate.swift in Sources */,
+				49370EA1247FCFB5006B1963 /* CharactersData.swift in Sources */,
+				49370EA5247FCFB5006B1963 /* Character.swift in Sources */,
 				49370E7F247FCF74006B1963 /* AppDelegate.swift in Sources */,
+				49370EA4247FCFB5006B1963 /* AppView.swift in Sources */,
+				49370EA0247FCFB5006B1963 /* ContentView.swift in Sources */,
+				49370E9E247FCFB5006B1963 /* CharacterEditor.swift in Sources */,
+				49370E9D247FCFB5006B1963 /* SearchBar.swift in Sources */,
+				49370EA2247FCFB5006B1963 /* CharacterList.swift in Sources */,
 				49370E81247FCF74006B1963 /* SceneDelegate.swift in Sources */,
 				49370E83247FCF74006B1963 /* ContentView.swift in Sources */,
 			);

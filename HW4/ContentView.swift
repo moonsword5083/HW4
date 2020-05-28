@@ -2,8 +2,8 @@
 //  ContentView.swift
 //  HW4
 //
-//  Created by User16 on 2020/5/28.
-//  Copyright © 2020 ntou. All rights reserved.
+//  Created by User16 on 2020/5/13.
+//  Copyright © 2020 00657143. All rights reserved.
 //
 
 import SwiftUI
